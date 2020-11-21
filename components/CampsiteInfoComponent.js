@@ -35,6 +35,6 @@ class CampsiteInfo extends Component {
         const campsite = this.state.campsites.filter(campsite => campsite.id === campsiteId)[0];
         return <RenderCampsite campsite={campsite} />
     }
-}   
+}
 
 export default CampsiteInfo;
